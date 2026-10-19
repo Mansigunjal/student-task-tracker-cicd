@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: student-task-tracker
-        image: IMAGE_PLACEHOLDER
+        image: mansig1/student-task-tracker:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
